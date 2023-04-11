@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <div className="flex items-center justify-between pt-10 xl:pl-32 xl:pr-32 md:pl-24 md:pr-24 sm:pl-10 sm:pr-10 xs:pl-4 xs:pr-4 xs:pt-4">
             <div className="flex-1">
-                <a className="xl:text-4xl sm:text-3xl" href="/">Valdir Silva</a>
+                <a className="xl:text-4xl sm:text-3xl xs:text-2xl" href="/">Valdir Silva</a>
             </div>
             <div className="xl:w-2/4 md:w-3/5 xl:block md:block xs:hidden">
                 <Menu />
