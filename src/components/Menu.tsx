@@ -1,34 +1,14 @@
-import React from 'react'
+import MenuItem from "./MenuItem"
 
-type MenuProps = {
-    isVisible: boolean
-}
-
-const Menu = ({ isVisible }: MenuProps) => {
-    const [showMenu, setShowMenu] = React.useState(isVisible)
-
-    React.useEffect(() => {
-        setShowMenu(isVisible)
-    }, [isVisible])
-
+const Menu = () => {
     return (
     <>
-        {showMenu ?
-            <ul className="flex justify-between text-2xl">
-                <li className="cursor-pointer">
-                    <a href="#about">About</a>
-                </li>
-                <li className="cursor-pointer">
-                    <a href="#experience">Experience</a>
-                </li>
-                <li className="cursor-pointer">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li className="cursor-pointer">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul> : null
-        }
+        <ul className="flex justify-between lg:text-3xl md:text-2xl">
+            <MenuItem title="About" link="about"/>
+            <MenuItem title="Experience" link="experience"/>
+            <MenuItem title="Projects" link="projects"/>
+            <MenuItem title="Contact" link="contact"/>
+        </ul>
     </>
   )
 }
