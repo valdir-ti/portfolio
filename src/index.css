@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    font-family: 'Ubuntu', sans-serif;
+@layer base {
+    body {
+        @apply font-[Ubuntu];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
 }
