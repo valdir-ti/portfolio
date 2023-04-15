@@ -1,5 +1,4 @@
 type WorkItemProps = {
-    index: number
     item: {
         image: string
         name: string
@@ -8,9 +7,9 @@ type WorkItemProps = {
     }
 }
 
-const WorkItem = ({index, item}: WorkItemProps) => {
+const WorkItem = ({item}: WorkItemProps) => {
   return (
-    <div key={index} style={{ backgroundImage: `url(${item.image})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div">
+    <div style={{ backgroundImage: `url(${item.image})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div">
         {/* Hover Effect */}
         <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>

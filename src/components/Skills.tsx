@@ -11,7 +11,7 @@ import MySQL from '../assets/mysql.png'
 
 const Skills = () => {
   return (
-    <div data-name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
+    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
         {/* Container */}
         <div className='xl:max-w-[1000px] lg:max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className=''>
@@ -36,6 +36,10 @@ const Skills = () => {
                     <p className='my-4'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
+                    <p className='my-4'>Tailwind</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Node} alt="Node icon" />
                     <p className='my-4'>Node</p>
                 </div>
@@ -46,10 +50,6 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt="Github icon" />
                     <p className='my-4'>Github</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                    <p className='my-4'>Tailwind</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Mongo} alt="Mongo icon" />

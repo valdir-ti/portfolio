@@ -7,7 +7,7 @@ const Work = () => {
     const project = data;
 
   return (
-    <div data-name='work' className="bg-[#0a192f] w-full md:h-screen text-gray-300">
+    <div name='work' className="bg-[#0a192f] w-full md:h-screen text-gray-300">
         {/* Container */}
         <div className="xl:max-w-[1000px] lg:max-w-[900px] mx-auto p-4 flex flex-col justify-center h-full w-full">
             <div className="pb-8">
@@ -18,7 +18,7 @@ const Work = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
 
                 {project.map((item, index) => (
-                    <WorkItem index={index} item={item}/>
+                    <WorkItem key={index} item={item}/>
                 ))}
 
             </div>
