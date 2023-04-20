@@ -91,11 +91,12 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#6fc2b0]'>
-                        <a  className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                        <div
+                            className='flex justify-between items-center w-full text-gray-300'
+                            onClick={() => {window.location.href ='mailto:valdir.ti@gmail.com'}}
                         >
-                            LinkedIn <HiOutlineMail size={30}/>
-                        </a>
+                            Contact Me <HiOutlineMail size={30}/>
+                        </div>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]'>
                         <a  className='flex justify-between items-center w-full text-gray-300'
