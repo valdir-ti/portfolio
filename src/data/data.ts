@@ -1,4 +1,5 @@
 import Intratec from '../assets/intratec.jpeg'
+import Gym from '../assets/gym.png'
 import WorkIm from '../assets/work.jpeg'
 import RealEst from '../assets/realestate.jpg'
 
@@ -12,10 +13,10 @@ export const data = [
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"Gym React JS Application",
+        image:Gym,
+        github:"https://github.com/valdir-ti/gym_exercises",
+        live:"https://exercise-gym.netlify.app/",
     },
     {
         id:3,
