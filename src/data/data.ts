@@ -1,5 +1,6 @@
 import Intratec from '../assets/intratec.jpeg'
 import Gym from '../assets/gym.png'
+import Spotify from '../assets/spotify-clone.png'
 import WorkIm from '../assets/work.jpeg'
 import RealEst from '../assets/realestate.jpg'
 
@@ -20,10 +21,10 @@ export const data = [
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Spotify Clone with NextJS and TailwindCSS",
+        image:Spotify,
+        github:"https://github.com/valdir-ti/clone-spotify",
+        live:"https://clone-spotify-amber-one.vercel.app/",
     },
     {
         id:4,
