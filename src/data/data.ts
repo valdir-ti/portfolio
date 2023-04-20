@@ -1,6 +1,7 @@
 import Intratec from '../assets/intratec.jpeg'
 import Gym from '../assets/gym.png'
 import Spotify from '../assets/spotify-clone.png'
+import BookApp from '../assets/bookapp.png'
 import WorkIm from '../assets/work.jpeg'
 import RealEst from '../assets/realestate.jpg'
 
@@ -28,10 +29,10 @@ export const data = [
     },
     {
         id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"React BookApp",
+        image:BookApp,
+        github:"https://github.com/valdir-ti/bookapp",
+        live:"https://bookapp-intratec.vercel.app/",
     },
     {
         id:5,
