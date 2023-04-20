@@ -1,13 +1,14 @@
+import Intratec from '../assets/intratec.jpeg'
 import WorkIm from '../assets/work.jpeg'
 import RealEst from '../assets/realestate.jpg'
 
 export const data = [
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Intratec Tecnologia React Application",
+        image:Intratec,
+        github:"https://github.com/valdir-ti/intratec-web",
+        live:"https://intratec-web.netlify.app/",
     },
     {
         id:2,
