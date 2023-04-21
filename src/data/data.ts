@@ -1,10 +1,9 @@
-import Intratec from '../assets/intratec.jpeg'
+import DT from '../assets/dt.png'
 import Gym from '../assets/gym.png'
+import BookApp from '../assets/bookapp.png'
+import Intratec from '../assets/intratec.jpeg'
 import Spotify from '../assets/spotify-clone.png'
 import Netflix from '../assets/netflix-clone.png'
-import BookApp from '../assets/bookapp.png'
-import WorkIm from '../assets/work.jpeg'
-import RealEst from '../assets/realestate.jpg'
 
 export const data = [
     {
@@ -41,13 +40,5 @@ export const data = [
         image:Netflix,
         github:"https://github.com/valdir-ti/netflix-clone/tree/master/netflix-clone",
         live:"https://netflix-clone-gamma.vercel.app",
-    },
-    {
-        id:6,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
+    }
 ]
